@@ -1,0 +1,17 @@
+{
+  "name": "Smart Weather Mini",
+  "about": "Метеостанция с автоопределением поддерживаемых датчиков для умного дома",
+  "version": "1.0",
+  "notes": "Проверка Ota-обновлений",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/GyverLibs/GyverHub-example/main/bin/firmware.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
